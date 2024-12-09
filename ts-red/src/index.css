@@ -1,0 +1,88 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  backdrop-filter: none;
+}
+
+/*
+.flamenco-regular {
+  box-shadow: rgb(73, 45, 91)41px 92px 95px 3px inset;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+*/
+
+[data-theme="dark"] {
+  --nav-bg: #a872e9;
+  --background: #535bf2;
+  --text-primary: #dacbcb;
+  --text-hover: white;
+  --border: #696969;
+  --thumbs: hotpink;
+  --nav-shadow: 5px 6px 10px rgba(20, 220, 330, 1);
+  --card-bg: linear-gradient(90deg in hsl shorter hue, black, purple);
+  --card-comments: #a872e9;
+  --card-replies: #c499f3;
+  --card-coms: #9c50ec;
+  --card-head: #f2afef;
+  --card-body: #c499f3;
+  --card-title: rgb(202, 0, 255);
+  --footer: #7360df;
+  --fav-card: #a252f7;
+  --fav-shadow: rgba(200, 10, 150, 2) 10px 14px 8px;
+  --fav-card-bg: rgb(139, 0, 139);
+  --fav-cards-bg: #621186;
+  --fav-link: #f4f4fb;
+}
+
+:root {
+  --nav-bg: #ff7626;
+  --background3: rgb(86, 248, 80);
+  --text-primary: #fcc4c4;
+  --text-hover: black;
+  --border: #fab12f;
+  --nav-shadow: 5px 6px 10px rgba(250, 200, 200, 2);
+  --thumbs: #cc7400;
+  --card-bg: linear-gradient(
+    70deg in hsl shorter hue,
+    rgb(218, 204, 204),
+    rgb(226, 123, 39)
+  );
+  --card-comments: #fa812f;
+  --card-replies: #fef3e2;
+  --card-coms: #ee9e6e;
+  --card-head: #fef3e2;
+  --card-boby: #fa812f;
+  --card-title: #333;
+  --footer: #fa4032;
+  --fav-card: #e86800;
+  --fav-shadow: rgba(20, 10, 0, 2) 10px 14px 8px;
+  --fav-card-bg: rgb(194, 109, 12);
+  --fav-cards-bg: #e89478;
+  --fav-link: #0a0a11;
+  /*#ff6f6f*/
+}
+
